@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Bhalerao's Rasoi | Table Reservation
+    </title>
+</head>
+<body>
+  <header>
+
+        <center>
+            <h1>
+                 BHALERAO'S RASOI
+            </h1>
+
+            <h3>
+               <em> Reserve Your Table</em>
+            </h3>
+
+            
+
+        </center>
+        <hr>
+        <nav>
+
+            <center>
+
+                <a href="index.html">Home</a>  &nbsp; &nbsp;  &nbsp; &nbsp;
+                <a href="menu.html">Menu</a> &nbsp; &nbsp;  &nbsp; &nbsp;
+                <a href="about.html">About Us</a> &nbsp; &nbsp;  &nbsp; &nbsp;
+                <a href="gallery.html">Gallery</a>  &nbsp; &nbsp;  &nbsp; &nbsp;
+                <a href="reservation.html">Booking</a>  &nbsp; &nbsp;  &nbsp; &nbsp;
+                <a href="contact.html">Contact</a>  &nbsp; &nbsp;  &nbsp; &nbsp;
+                <a href="feedback.html">Feedback</a>
+
+            </center>
+        </nav>
+        <hr>
+    </header>
+
+        <center>
+
+            <h2>
+                 Book Your Table
+            </h2>
+
+            <p>
+                Planning a family dinner, birthday,
+                anniversary or special occasion?
+            </p>
+
+            <p>
+                Reserve your table at
+                <b>Bhalerao's Rasoi</b>.
+            </p>
+
+        </center>
+
+        <form action="#" method="post">
+            <table border="12" width="50%" align="center" cellpadding="12">
+                <tr>
+                    <th colspan="2">
+                        Customer Information
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="name">Full Name: </label>
+                    </td>
+
+                    <td>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email"> Email:</label>
+                    </td>
+
+                    <td>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="phone"> Mobile Number: </label>
+                    </td>
+                    <td>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter mobile number" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="date"> Reservation Date:</label>
+                    </td>
+
+                    <td>
+
+                        <input type="date" id="date" name="date" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="time"> Reservation Time:</label>
+                    </td>
+
+                    <td>
+
+                        <input type="time" id="time" name="time" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="guests"> Number of Guests:</label>
+                    </td>
+
+                    <td>
+                        <input type="number" id="guests" name="guests"min="1"max="30"required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Seating Preference:
+                    </td>
+
+                    <td>
+                        <input type="radio" id="indoor" name="seating" value="indoor">
+
+                        <label for="indoor"> Indoor </label>
+                        <br>
+
+                        <input type="radio" id="outdoor" name="seating" value="outdoor">
+
+                        <label for="outdoor">  Outdoor</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="occasion"> Occasion: </label>
+                    </td>
+
+                    <td>
+                        <select id="occasion" name="occasion">
+
+                            <option value="">Select Occasion </option>
+                            <option value="family"> Family Dinner </option>
+                            <option value="birthday"> Birthday</option>
+                            <option value="anniversary">  Anniversary</option>
+                            <option value="business"> Business Meeting</option>
+                            <option value="party">  Celebration </option>
+                            <option value="other"> Other </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Additional Services:
+                    </td>
+
+                    <td>
+                        <input type="checkbox" id="cake" name="service" value="cake">
+
+                        <label for="cake">Birthday Cake </label>
+                        <br>
+
+                        <input type="checkbox" id="decoration" name="service" value="decoration">
+                         <label for="decoration"> Table Decoration</label>
+                        <br>
+
+                        <input type="checkbox" id="music" name="service" value="music">
+
+                        <label for="music"> Special Music </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="request">Special Request: </label>
+                    </td>
+
+                    <td>
+                        <textarea id="request"name="request"rows="6"cols="40"placeholder="Enter your special request"> </textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                       <input type="submit" value="Book My Table">
+
+                        <input type="reset" value="Clear Form">
+                    </td>
+                </tr>
+            </table>
+            <hr>
+
+        <center>
+
+            <p>
+                 Need help?
+                <a href="contact.html">Contact Bhalerao's Rasoi</a>
+            </p>
+
+            <p>
+                © 2026 Bhalerao's Rasoi
+            </p>
+
+        </center>
+</body>
+
+</html>
